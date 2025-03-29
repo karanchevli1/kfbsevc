@@ -1,0 +1,13 @@
+#back_contact{
+  background: linear-gradient( rgba(0,0,0, 0.6), rgba(0,0,0, 0.4) ), url("../image/contact-us.jpg");
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+  .contactus.box {
+    border-radius: 20px;
+    box-shadow: 0px 30px 40px -20px hsl(229, 6%, 66%);
+    border-top: 5px solid #4B9CD3;
+    overflow: hidden;
+}

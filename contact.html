@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <!-- Standard Meta -->
+    
+    <title>Contact | KFBS EVC</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="icon" type="image/png" href="image/kfbs-evc-icon.png"/>
+    <meta name="keywords" content="mba, kfbs, kenan-flagler business school, evc, club, entrepreneurship, venture capital, kfbs evc, entrepreneurship and venture capital club, mba program, usa mba"/>
+    <meta name="description" content="Kenan-Flagler Business School Entrepreneurship and Venture Capital Club"/>
+    <meta name="robots" content="index,follow"/>
+    <meta http-equiv="author" content="KFBS EVC"/>
+    <link rel="shortcut icon" href="image/favicon.ico">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+
+        <!-- Firebase -->
+        <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-functions.js"></script>
+        <script src="myJavaScript/firebaseScript.js"></script>
+    
+    
+    
+    <!-- Site Properties -->
+        <link rel="stylesheet" type="text/css" href="Semantic-UI-CSS/components/reset.min.css">
+        <link rel="stylesheet" type="text/css" href="Semantic-UI-CSS/components/site.min.css">
+
+        <link rel="stylesheet" type="text/css" href="Semantic-UI-CSS/components/container.min.css">
+        <link rel="stylesheet" type="text/css" href="Semantic-UI-CSS/components/grid.min.css">
+        <link rel="stylesheet" type="text/css" href="Semantic-UI-CSS/components/header.min.css">
+        <link rel="stylesheet" type="text/css" href="Semantic-UI-CSS/components/image.min.css">
+        <link rel="stylesheet" type="text/css" href="Semantic-UI-CSS/components/menu.min.css">
+
+        <link rel="stylesheet" type="text/css" href="Semantic-UI-CSS/components/divider.min.css">
+        <link rel="stylesheet" type="text/css" href="Semantic-UI-CSS/components/dropdown.min.css">
+        <link rel="stylesheet" type="text/css" href="Semantic-UI-CSS/components/segment.min.css">
+        <link rel="stylesheet" type="text/css" href="Semantic-UI-CSS/components/button.min.css">
+        <link rel="stylesheet" type="text/css" href="Semantic-UI-CSS/components/list.min.css">
+        <link rel="stylesheet" type="text/css" href="Semantic-UI-CSS/components/icon.min.css">
+        <link rel="stylesheet" type="text/css" href="Semantic-UI-CSS/components/sidebar.min.css">
+        <link rel="stylesheet" type="text/css" href="Semantic-UI-CSS/components/transition.min.css">
+
+        <link rel="stylesheet" type="text/css" href="Semantic-UI-CSS/components/modal.min.css">
+        <link rel="stylesheet" type="text/css" href="Semantic-UI-CSS/components/dimmer.min.css">
+        <link rel="stylesheet" type="text/css" href="Semantic-UI-CSS/components/form.min.css">
+        <link rel="stylesheet" type="text/css" href="Semantic-UI-CSS/components/reveal.min.css">
+        <link rel="stylesheet" type="text/css" href="Semantic-UI-CSS/components/message.min.css">
+
+        <script
+            src="https://code.jquery.com/jquery-1.12.4.min.js"
+            integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+            crossorigin="anonymous">
+        </script>
+        
+        <script src="Semantic-UI-CSS/components/visibility.min.js"></script>
+        <script src="Semantic-UI-CSS/components/sidebar.min.js"></script>
+        <script src="Semantic-UI-CSS/components/transition.min.js"></script>
+        <script src="Semantic-UI-CSS/components/dropdown.min.js"></script>
+        <script src="Semantic-UI-CSS/components/modal.min.js"></script>
+        <script src="Semantic-UI-CSS/components/dimmer.min.js"></script>
+        <script src="Semantic-UI-CSS/components/colorize.min.js"></script>
+        <script src="Semantic-UI-CSS/components/form.min.js"></script>
+        <!-- <script src="myJavaScript/homeScript.js"></script> -->
+        <script src="myJavaScript/commonScript.js"></script>
+
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/contactus.css">
+    
+    </head>
+
+    <body>
+        <div id="top"></div>
+        <!-- Following Menu -->
+        <div class="ui large top fixed hidden menu">
+            <div class="ui container">
+                  <a class="item calendar down" href="calendar.html">Calendar</a>
+                  <a class="item bullhorn down" href="programs.html">Programs</a>
+                  <a class="item address book down" href="team.html">Team</a>
+                  <a class="item active info about down" href="contact.html">Contact</a>
+              <div class="right menu">
+                <div class="item">
+                  <a class="ui primary button upload_button" style="margin-right: 10px;" href="index.html">Home</a>
+                  <a class="ui primary button upload_button" href="https://forms.office.com/r/ARBuW8BLF0" target="_blank">Join Us</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Sidebar Menu -->
+          <div class="ui thin left vertical inverted sidebar menu labeled icon menu">
+                <a class="item calendar down" href="calendar.html">
+                  <i class="calendar icon"></i>
+                  Calendar
+                </a>
+                <a class="item bullhorn down" href="programs.html">
+                  <i class="bullhorn icon"></i>
+                  Programs
+                </a>
+                <a class="item address book down" href="team.html">
+                  <i class="address book icon"></i>
+                  Team
+                </a>
+                <a class="item active info about down" href="contact.html">
+                  <i class="info icon"></i>
+                  Contact
+                </a>
+          </div>
+  
+  
+          <!-- Page Contents -->
+  <div class="pusher">
+      <div class="ui inverted vertical masthead  segment home" id="back_contact">
+    
+        <div class="ui container">
+          <div class="ui large secondary inverted menu">
+            <a class="toc item">
+              <i class="sidebar icon"></i>
+            </a>
+                <a class="item calendar down blank" href="calendar.html">Calendar</a>
+                <a class="item bullhorn blank" href="programs.html">Programs</a>
+                <a class="item address book down blank" href="team.html">Team</a>
+                <a class="item active info about down blank" href="contact.html">Contact</a>
+            <div class="right item down">
+              <a class="ui inverted button upload_button" href="index.html">Home</a>
+              <a class="ui inverted button upload_button" href="https://forms.office.com/r/ARBuW8BLF0" target="_blank">Join Us</a>
+            </div>
+          </div>
+        </div>
+  
+      <div class="ui text center aligned container index">
+        <h2 class="ui inverted header">
+          CONTACT US
+        </h2>
+              
+      </div>
+    </div>
+  
+    <div class="reference division"></div>
+
+    <div class="ui container" style="margin-top: 2em; margin-bottom: 2em;">
+
+        <div class="ui equal height stackable middle aligned grid">
+
+            <div class="six wide fluid column">
+                <div class="ui big list">
+                    <h2 class="ui header">
+                        <i class="mail icon"></i>
+                        <div class="content" style="text-align: left;">
+                          Mail
+                          <div class="sub header"><a href="mailto:mbaevc@kenan-flagler.unc.edu">mbaevc@kenan-flagler.unc.edu</a></div>
+                        </div>
+                      </h2>
+                      <h2 class="ui header">
+                        <i class="linkedin icon"></i>
+                        <div class="content" style="text-align: left;">
+                          Linkedin
+                          <div class="sub header"><a target="_blank" href="https://www.linkedin.com/company/kfbsevc/">Follow us</a></div>
+                        </div>
+                      </h2>
+                      <h2 class="ui header">
+                        <i class="instagram icon"></i>
+                        <div class="content" style="text-align: left;">
+                            Instagram
+                          <div class="sub header"><a target="_blank" href="https://www.instagram.com/kfbsevc/?hl=en">Follow us</a></div>
+                        </div>
+                      </h2>
+                </div>
+            </div>
+        
+            <div class="ten wide column" style="margin-top: 2em;margin-bottom: 2em;">
+                <div class="contactus box">
+                    <div class="ui fluid form" style="padding: 20px;" method="POST" id="inquiry-form">
+                        <div class="one field">
+                            <div class="field">
+                                <label>Name</label>
+                                <input type="text" name="name" placeholder="Name" id="form_name">
+                            </div>
+                        </div>
+                        <div class="two fields">
+                            <div class="field">
+                                <label>E-mail</label>
+                                <input type="text" name="email" placeholder="john@appleseed.com" id="form_email">
+                            </div>
+                            <div class="field">
+                                <label>Mobile No.</label>
+                                <input type="text" name="mobile" placeholder="9193700000" id="form_mobile">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label>Inquiry</label>
+                            <textarea placeholder="How can we serve you?" id="form_textarea"></textarea>
+                          </div>
+                          <div class="ui tiny error message">
+                            <p>Please enter either a valid E-mail or a Mobile No.</p>
+                          </div>
+                        <button class="ui submit button" type="submit" id="inquiry-submit">Submit</button>
+                        </div>
+                </div>
+            </div>
+        
+
+        </div>
+
+        <div class="ui equal height stackable middle aligned grid">
+
+            <div class="eleven wide column" style="margin-top: 2em; margin-bottom: 2em;">
+                <div class="contactus box">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3231.9312180418797!2d-79.048806424208!3d35.899700217941955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89acc2f24a29a61f%3A0x49b5fb922dedc9bc!2sKenan-Flagler%20Business%20School!5e0!3m2!1sen!2sus!4v1743212954051!5m2!1sen!2sus" style="border:0; width: 100%; height: 30em;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+            <div class="five wide fluid column">
+                <h3 class="ui center aligned icon header">
+                    <i class="map marker icon"></i>
+                    Find us at
+                  </h3>
+                <div class="ui center aligned container">
+                    <p style="font-size:medium">McColl Building,
+                    <br>300 Kenan Center Drive,
+                    <br>Chapel Hill, NC - 27514</p>
+                </div>
+            </div>
+
+            
+
+        </div>
+
+    </div>
+  
+  
+  
+    <div class="reference DivisionBottom"></div>
+
+    <!-- Common footer -->
+    <div class="ui blue inverted vertical footer segment about" style="background-color: #4B9CD3 !important;">
+        <div class="ui container">
+            <div class="ui stackable inverted divided equal height stackable grid">
+                <div class="three wide column">
+                    <h3 class="ui inverted header">Menu</h3>
+                    <div class="ui inverted list items">
+                        <div class="footer_item item">
+                            <i class="inverted link large calendar icon"></i>
+                                <div class="content">
+                                    <h4 class="ui  inverted header"><a href="calendar.html">Calendar</a></h4>
+                                </div>
+                        </div>
+                        <div class="footer_item item">
+                            <i class="inverted link large bullhorn icon"></i>
+                            <div class="content">
+                                <h4 class="ui  inverted header"><a href="programs.html">Programs</a></h4>
+                            </div>
+                        </div>
+                        <div class="footer_item item">
+                          <i class="inverted link large address book icon"></i>
+                          <div class="content">
+                              <h4 class="ui  inverted header"><a href="team.html">Team</a></h4>
+                          </div>
+                      </div>
+                        <div class="footer_item item">
+                            <i class="inverted link large add icon"></i>
+                            <div class="content">
+                                <h4 class="ui  inverted header"><a href="https://forms.office.com/r/ARBuW8BLF0" target="_blank">Join Us</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="three wide column">
+                    <h3 class="ui inverted header">Connect</h3>
+                    <div class="ui inverted list items">
+                        <div class="footer_item item">
+                            <i class="inverted link large mail icon"></i>
+                            <div class="content">
+                                <h4 class="ui  inverted header"><a href="mailto:mbaevc@kenan-flagler.unc.edu">E-mail</a></h4>
+                            </div>
+                        </div>
+                        <div class="footer_item item">
+                            <i class="inverted link large linkedin icon"></i>
+                            <div class="content">
+                                <h4 class="ui  inverted header"><a target="_blank" href="https://www.linkedin.com/company/kfbsevc/">Linkedin</a></h4>
+                            </div>
+                        </div>
+                        <div class="footer_item item">
+                            <i class="inverted link  large instagram icon"></i>
+                                <div class="content">
+                                    <h4 class="ui  inverted header"><a target="_blank" href="https://www.instagram.com/kfbsevc/?hl=en">Instagram</a></h4>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="five wide column">
+                    <div class="ui left aligned centered text fluid container">
+                        <div class="ui inverted equal height grid">
+                            <div class="five wide column">
+                                <div class="ui rounded image" id="footer-logo">
+                                    <img src="image/evc-png.png">
+                                  </div>
+                            </div>
+                            <div class="ten wide column">
+                                <div class="ui inverted list items">
+                                    <div class="item">
+                                        <h3 class="ui  inverted header"><a href="index.html">Entrepreneurship & Venture Capital Club</a></h3>
+                                    </div>
+                                    <div class="footer_item item">
+                                        <p style="color: #cdcdcd; font-size:smaller">MBA @ UNC Chapel Hill</p>
+                                    </div>
+                                    <div class="footer_item item">
+                                        <p style="color: #cdcdcd; font-size:smaller">Kenan-Flagler Business School</p>
+                                    </div>
+                                    <div class="item">
+                                        <p style="color: #cdcdcd; font-size:smaller">All rights reserved.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+  <button class="circular ui icon button up">
+      <i class="icon angle up"></i>
+    </button>
+    </body>
+</html>

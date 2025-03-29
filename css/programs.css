@@ -1,0 +1,200 @@
+#back_contact{
+    /* background-image: url("../image/sustain.jpg"); */
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../image/programs.jpg");
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+.carousel.box {
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+      0px 5px 8px 0px rgba(0, 0, 0, 0.14),
+      0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+    /* box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px; */
+    position: relative;
+    background-color: #1b1c1d;
+}
+
+/* .carousel.image {
+    max-width: 100%;
+    max-height: 100%;
+} */
+
+.carousel.image.odd {
+    position:absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.carousel.angle.left {
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    cursor: pointer;
+}
+
+.carousel.angle.right {
+    position: absolute;
+    top: 45%;
+    right: 5%;
+    cursor: pointer;
+}
+
+
+
+
+
+.a-box {
+    display: inline-block;
+    width: 240px;
+    text-align: center;
+  }
+  
+  .img-container {
+      height: 230px;
+      width: 200px;
+      overflow: hidden;
+      border-radius: 0px 0px 20px 20px;
+      display: inline-block;
+  }
+  
+  .img-container img {
+      transform: skew(0deg, -13deg);
+      height: 60%;
+      width: 60%;
+      position: absolute;
+      top: 10%;
+      left: 20%;
+      /* margin: -35px 0px 0px -70px; */
+  }
+  
+  .inner-skew {
+      display: inline-block;
+      border-radius: 20px;
+      overflow: hidden;
+      padding: 0px;
+      transform: skew(0deg, 13deg);
+      font-size: 0px;
+      margin: 30px 0px 0px 0px;
+      background: #c8c2c2;
+      height: 250px;
+      width: 200px;
+  }
+  
+  .text-container {
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    padding: 120px 20px 20px 20px;
+    border-radius: 20px;
+    background: #fff;
+    margin: -120px 0px 0px 0px;
+    line-height: 19px;
+    font-size: 14px;
+  }
+  
+  .text-container h3 {
+    margin: 20px 0px 10px 0px;
+    color: #04bcff;
+    font-size: 18px;
+  }
+
+
+  
+.brief {
+    font-size: larger;
+  }
+  
+  .brief.link {
+    cursor: pointer;
+  }
+  
+  .ui.floated.image {
+    border-radius: 20px;
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  }
+  
+  .header.head {
+    color: #314146;
+  }
+  
+  
+  .card {
+    margin: 30px auto;
+    width: 320px;
+    height: 90px;
+    border-radius: 40px;
+    /* box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 40px 7px rgba(0,0,0,0.22); */
+    cursor: pointer;
+    transition: 0.4s;
+    background-color: #4B9CD3;
+    /* background-image: url("../image/contact-us.jpg"); */
+    position: relative;
+    box-shadow: rgba(255, 255, 255, 0.17) 0px -23px 25px 0px inset, rgba(255, 255, 255, 0.15) 0px -36px 30px 0px inset, rgba(255, 255, 255, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px, 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 40px 7px rgba(0,0,0,0.22);
+  }
+  
+  .card .card_title {
+    text-align: center;
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 26px;
+    color: #FFFFFF;
+  }
+  
+  .card:hover {
+    transform: scale(0.9, 0.9);
+    /* box-shadow: 5px 5px 40px 15px rgba(0,0,0,0.25), -5px -5px 30px 15px rgba(0,0,0,0.22); */
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px, 5px 5px 40px 15px rgba(0,0,0,0.25), -5px -5px 30px 15px rgba(0,0,0,0.22);
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media only screen and (max-width: 700px) {
+    .masthead h2.ui.header {
+      /* margin-top: 5em; */
+      margin-top: 0em;
+      margin-bottom: 0em;
+      font-size: 2em;
+      font-weight: normal;
+      
+    }
+    
+    .masthead h1.ui.header {
+      margin-top: 1em;
+      margin-bottom: 0em;
+      font-size: 3em;
+      font-weight: normal;
+    }
+  
+    .ui.inside {
+      margin-top: 0em;
+      margin-bottom: 0em;
+      font-size: 30px;
+      font-weight: normal;
+    }
+  
+    .ui.fixed.menu {
+      display: none !important;
+    }
+    .secondary.menu > .blank {
+      display: none !important;
+    }
+    .secondary.menu .item,
+    .secondary.menu .menu {
+        display: none;
+    }
+    .secondary.menu .toc.item {
+        display: block;
+    }
+  
+  }

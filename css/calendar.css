@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400");
+
+#back_contact{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../image/bell-tower.jpg");
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+.line-rectangle {
+    display: inline-block;
+    overflow: hidden;
+    padding: 0px;
+    
+    font-size: 0px;
+    margin: 70px 0px 10px 0px;
+    /* margin-top: 100px; */
+    background: #314146;
+    height: 20px;
+    width: 75%;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+      0px 5px 8px 0px rgba(0, 0, 0, 0.14),
+      0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+
+.info-card {
+    margin: 30px auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.inverted.icon.infra{
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+}
+
+.header.card {
+    padding-top: 30%;
+}
+
+.center.aligned.grid > .ui.center.image {
+    margin-bottom: 10px;
+    
+}
+
+.ui.large.image {
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+    padding: 0;
+    margin: 4px;
+    border-radius: 10px;
+}
+
+
+
+.brief {
+    font-size: larger;
+    padding-bottom: 20px;
+}
+
+.container.content {
+    margin-top: 40px;
+}
+
+
+.event-card {
+    display: flex;
+    align-items: center;
+    background: #F8F8F8;
+    color: #13294B;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    padding: 20px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    width: 100%;
+}
+.event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+.event-date {
+    font-size: 1.4rem;
+    font-weight: bold;
+    background: #F8F8F8;
+    color: #56A3D9;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    min-width: 120px;
+}
+.event-details {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+.event-title {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.event-meta {
+    font-size: 1rem;
+    opacity: 0.9;
+}
+.event-description {
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+.event-actions {
+    text-align: right;
+}
+.event-actions a {
+    background: white;
+    color: #56A3D9;
+    font-weight: bold;
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 768px) {
+    .event-card {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+    }
+    .event-date {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+        min-width: auto;
+        width: 100%;
+    }
+    .event-details {
+        margin-left: 0;
+    }
+    .event-actions {
+        text-align: center;
+        margin-top: 10px;
+    }
+}

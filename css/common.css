@@ -1,0 +1,139 @@
+
+/* Font Styling */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400");
+
+.upload_button{
+  background-color: #1c5b72;
+}
+
+body{
+  font-family: Open Sans, Verdana, sans-serif;
+  color: rgba(0, 0, 0, .87);
+    font-weight: 400;
+    line-height: 1.45
+}
+
+h1 {
+  margin-bottom: 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+  color: #FFFFFF;
+  font-size: 2.618em
+}
+
+.ui.text.container > p {
+  line-height: 1.4;
+  font-size: 1.1em
+}
+
+.ui.font.container > p {
+  line-height: 1.4;
+  font-size: 1.1em
+}
+
+/* ***************** Font styling end */
+
+
+.hidden.menu {
+    display: none;
+}
+
+.masthead .logo.item img {
+    margin-right: 1em;
+  }
+  .masthead .ui.menu .ui.button {
+    margin-left: 0.5em;
+  }
+
+.footer_item {
+    cursor: pointer;
+}
+
+
+.masthead.segment {
+    min-height: 300px;
+    padding: 1em 0em;
+  }
+  .masthead .ui.menu .ui.button {
+    margin-left: 0.5em;
+  }
+  .masthead h2.ui.header {
+    margin-top: 1.5em;
+    margin-bottom: 0em;
+    font-size: 2.55em;
+    font-weight: normal;
+  }
+  
+  .masthead h1.ui.header {
+    margin-top: 3em;
+    margin-bottom: 0em;
+    font-size: 4em;
+    font-weight: normal;
+  }
+  .masthead h2 {
+    font-size: 1.7em;
+    font-weight: normal;
+  }
+  .masthead h1 {
+    font-size: 1.7em;
+    font-weight: normal;
+  }
+  
+
+.footer.segment {
+padding: 5em 0em;
+bottom: 0
+}
+
+#footer-logo {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.secondary.menu .toc.item {
+display: none;
+}
+
+.icon.button.up{
+cursor: pointer;
+position: fixed;
+bottom: 0px;
+right: 0px;
+margin-bottom: 1em;
+margin-right: 1em;
+z-index: 2;
+display: none;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+.ui.fixed.menu {
+    display: none !important;
+}
+.secondary.menu > .blank {
+  display: none !important;
+}
+.secondary.menu .item,
+.secondary.menu .menu {
+    display: none;
+}
+.secondary.menu .toc.item {
+    display: block;
+}
+.masthead.segment {
+    min-height: 350px;
+}
+.masthead h1.ui.header {
+    font-size: 2em;
+    margin-top: 1.5em;
+}
+.masthead h2 {
+    margin-top: 0.5em;
+    font-size: 1.5em;
+}
+
+}

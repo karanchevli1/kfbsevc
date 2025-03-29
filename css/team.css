@@ -1,0 +1,168 @@
+#back_contact{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4) ), url("../image/unc-team.jpg");
+    /* background-color: #091420; */
+    background-size:     cover;                     
+    /* background-repeat:   no-repeat; */
+    background-position: center center; 
+}
+
+
+.inverted.header{
+  color: #606D5D;
+}
+
+
+
+
+
+
+
+
+  /* New */
+
+  .main-card {
+    display: inline-block;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 0px;
+    transform: skew(-10deg, 0deg);
+    font-size: 0px;
+    margin: 30px 0px 0px 0px;
+    background: #091420;
+    height: 200px;
+    width: 90%;
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+
+
+
+.five.wide.column {
+    overflow: hidden;
+}
+  
+  .card {
+    border-radius: 16px;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 100%;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+      0px 5px 8px 0px rgba(0, 0, 0, 0.14),
+      0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+    background-size: cover;
+    position: relative;
+  }
+
+  .card-info {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height:100%;
+    background-color: #fff;
+    transform: translateX(0) translateY(100%)
+      translateY(-88px)
+      translateZ(0);
+    transition: transform 0.5s ease-out;
+    background-size:contain;
+    border-radius: 16px;
+  }
+  
+  .card-info-before {
+    border-radius: 16px;
+    /* display: block; */
+    display: inline;
+    position:absolute;
+    content: ' ';
+    max-width:inherit;
+    width: 100%;
+    padding-top: 100%;
+    overflow: hidden;
+    filter: blur(5px);
+    background-size:cover;
+    opacity: 0.3;
+    transform: translateY(-100%)
+      translateZ(0);
+    transition: transform 0.5s ease-out;
+    border-radius: 16px;
+  }
+  
+  .card:hover .card-info,
+  .card:hover .card-info:before {
+    transform: translateY(0) translateZ(0);
+  }
+  
+  .title {
+    margin: 0;
+    padding: 28px;
+    font-size: 32px;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.87);
+  }
+  
+  .description {
+    margin: 0;
+    padding: 0 24px 24px;
+    font-size: 18px;
+    line-height: 1.5;
+    white-space: pre-line;
+  }
+
+  .expand2 {
+    position: absolute; 
+    bottom: 0; 
+    right:0; 
+    padding-right: 8px; 
+    padding-bottom: 8px; 
+    cursor: pointer;
+  }
+
+  #modal-description {
+    white-space: pre-line;
+  }
+
+
+  .ui.inside {
+    margin-top: 0em;
+    margin-bottom: 0em;
+    font-size: 40px;
+    font-weight: normal;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #606D5D;
+  
+    position: relative;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .ui.ins {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: normal;
+    color: #fff;
+    cursor: pointer;
+    /* margin-right: 40px; */
+
+    position: relative;
+    margin: 0;
+    top: 55%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  @media only screen and (max-width: 700px) {
+    .ui.inside {
+      margin-top: 0em;
+      margin-bottom: 0em;
+      font-size: 30px;
+      font-weight: normal;
+    }
+  }
